@@ -1,6 +1,6 @@
 {
   "name": "moment",
-  "version": "2.9.1",
+  "version": "2.9.2",
   "main": "moment.js",
   "ignore": [
     "**/.*",
