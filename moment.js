@@ -10,9 +10,9 @@
     ************************************/
 
     var moment,
-        VERSION = '2.9.0',
+        VERSION = '2.9.1',
         // the global-scope this is NOT the global object in Node.js
-        globalScope = (typeof global !== 'undefined' && (typeof window === 'undefined' || window === global.window)) ? global : this,
+        globalScope = typeof self !== 'undefined' ? self : (typeof global !== 'undefined' ? global : this),
         oldGlobalMoment,
         round = Math.round,
         hasOwnProperty = Object.prototype.hasOwnProperty,
